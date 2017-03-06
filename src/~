@@ -1,0 +1,72 @@
+#include <iostream>
+#include <string>
+#include <exception>
+#include <cstdlib>
+#include <new>
+using namespace std;
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+int main()
+{
+	int 	notes_of_500 = 0,
+			notes_of_100 = 0,
+			notes_of_50 = 0,
+			notes_of_20 = 0,
+			notes_of_10 = 0,
+			notes_of_5 = 0,
+			notes_of_1 = 0,
+	
+	int amount = 0;
+	
+	cout << "Enter Amount of Money : " ; cin >> amount ;
+	
+	while(amount > 0)
+	{
+		if((amount - 500) >= 0)
+		{
+			amount -= 500;
+			no_of_500++;	
+		}
+		else if((amount - 100) >= 0)
+		{
+			amount -= 100;
+			no_of_100++;
+		}	
+		else if((amount - 50) >= 0)
+		{
+			amount -= 50;
+			no_of_50++;
+		}	
+		else if((amount - 20) >= 0)
+		{
+			amount -= 20;
+			no_of_20++;
+		}	
+		else if((amount - 10) >= 0)
+		{
+			amount -= 10;
+			no_of_10++;
+		}	
+		else if((amount - 5) >= 0)
+		{
+			amount -= 5;
+			no_of_5++;
+		}	
+		else if((amount - 1) >= 0)
+		{
+			amount -= 1;
+			no_of_1++;
+		}
+	}
+	
+	cout 	<< "No of 500 = " << no_of_500 << endl 
+			<< "No of 100 = " << no_of_100 << endl
+			<< "No of 50  = " << no_of_50 << endl
+			<< "No of 10  = " << no_of_10 
+	
+	cout << endl ;
+	return 0;
+}
+////////////////////////////////////////////////////////////////////////////////
+

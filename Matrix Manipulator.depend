@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1431330337 source:h:\c++ programs\matrix manipulator\main.cpp
+	<iostream>
+	<string>
+	<exception>
+	<cstdlib>
+	<new>
+	<iomanip>
+	<cstdio>
+	<cstdlib>
+	<conio.h>
+	<windows.h>
+	<fraction.h>
+	<matrix.h>
+
+1427911349 h:\c++ programs\matrix manipulator\include\fraction.h
+
+1427896893 h:\c++ programs\matrix manipulator\include\matrix.h
+
+1427911689 source:h:\c++ programs\matrix manipulator\src\matrix.cpp
+	<iostream>
+	<string>
+	<exception>
+	<cstdlib>
+	<new>
+	<iomanip>
+	<cstdio>
+	<cstdlib>
+	<fraction.h>
+	<matrix.h>
+	<conio.h>
+
+1427911433 source:h:\c++ programs\matrix manipulator\src\fraction.cpp
+	<iostream>
+	<string>
+	<exception>
+	<cstdlib>
+	<new>
+	<iomanip>
+	<cstdio>
+	<cstdlib>
+	<fraction.h>
+	<matrix.h>
+
+1427911433 source:h:\dropbox\projects\_complete projects\matrix manipulator\src\fraction.cpp
+	<iostream>
+	<string>
+	<exception>
+	<cstdlib>
+	<new>
+	<iomanip>
+	<cstdio>
+	<cstdlib>
+	<fraction.h>
+	<matrix.h>
+
+1427911349 h:\dropbox\projects\_complete projects\matrix manipulator\include\fraction.h
+
+1427896893 h:\dropbox\projects\_complete projects\matrix manipulator\include\matrix.h
+
+1427911689 source:h:\dropbox\projects\_complete projects\matrix manipulator\src\matrix.cpp
+	<iostream>
+	<string>
+	<exception>
+	<cstdlib>
+	<new>
+	<iomanip>
+	<cstdio>
+	<cstdlib>
+	<fraction.h>
+	<matrix.h>
+	<conio.h>
+
